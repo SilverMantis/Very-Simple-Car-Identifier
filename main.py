@@ -24,6 +24,6 @@ while True:
     if cv2.waitKey(33) == 27:
        break
 
-test = "testing change"
+test123 = "testing change"
 
 cv2.destroyAllWindows()
