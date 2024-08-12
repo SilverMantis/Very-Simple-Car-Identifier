@@ -7,7 +7,7 @@ video = 'Media_analyzed/example_video.mp4'
 capture = cv2.VideoCapture(video) 
 car_cascade = cv2.CascadeClassifier(haar_cascade)
 
-while True: 
+while True:
 
     ret, img_frame = capture.read()
 
@@ -24,6 +24,6 @@ while True:
     if cv2.waitKey(33) == 27:
        break
 
-test1 = "testing change"
+test = "testing change"
 
 cv2.destroyAllWindows()
